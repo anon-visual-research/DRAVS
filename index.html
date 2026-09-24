@@ -17,7 +17,7 @@
           </span>
           <span class="brand-type"><strong>DRAVS</strong><small>qualitative visual comparisons</small></span>
         </a>
-        <div class="header-meta"><span class="status-dot" aria-hidden="true"></span><span>Anonymous supplementary material</span><span class="meta-divider" aria-hidden="true"></span><span>ICLR 2027</span></div>
+        <div class="header-meta"><span class="status-dot" aria-hidden="true"></span><span>Anonymous supplementary material</span><span class="meta-divider" aria-hidden="true"></span><span>ICLR 2027</span><span class="review-badge">DOUBLE-BLIND</span></div>
       </div>
       <nav class="page-nav" aria-label="Gallery sections">
         <a href="#overview">Overview</a>
@@ -47,6 +47,11 @@
             <a class="primary-action" href="#framework">View framework <span aria-hidden="true">↘</span></a>
             <a class="secondary-action" href="#h1">Browse rollouts <span aria-hidden="true">→</span></a>
           </div>
+          <div class="hero-proof" aria-label="Gallery contents">
+            <div><strong>08</strong><span>paired rollouts</span></div>
+            <div><strong>02</strong><span>benchmark families</span></div>
+            <div><strong>03+</strong><span>camera views per task</span></div>
+          </div>
           </div>
         <aside class="hero-panel contribution-panel" aria-label="Method contributions">
           <div class="panel-topline"><span class="panel-kicker">DRAVS · TWO IDEAS</span><span class="panel-count">OVERVIEW</span></div>
@@ -61,7 +66,7 @@
       <section class="framework-section" id="framework">
         <div class="framework-heading">
           <div><p class="section-kicker">METHOD OVERVIEW</p><h2>Framework at a glance.</h2></div>
-          <p>BRVS balances exploitation and exploration with sparse comparisons; DAVR uses consecutive-state score differences to model progress and regression.</p>
+          <p>Two ideas connect the method to the visual evidence below: budgeted view comparisons guide the scorer, while consecutive-state differences expose progress and regression.</p>
         </div>
         <figure class="framework-figure">
           <img src="media/framework.png" alt="DRAVS framework showing budgeted relative view selection and direction-aware visual reward">
@@ -89,25 +94,25 @@
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">01</span><h3>Stair</h3><p>controlled ascent</p></div><span class="task-family">H1</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Stair rollout comparison"><source src="media/stair/az90.mp4" type="video/mp4"><source src="media/stair/az90.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Stair rollout comparison"><source src="media/stair/az90.mp4" type="video/mp4"><source src="media/stair/az90.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/stair/az90.mp4" data-webm="media/stair/az90.webm">90°</button><button type="button" data-mp4="media/stair/az0.mp4" data-webm="media/stair/az0.webm">0°</button><button type="button" data-mp4="media/stair/az180.mp4" data-webm="media/stair/az180.webm">180°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">02</span><h3>Sit Hard</h3><p>contact-rich landing</p></div><span class="task-family">H1</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Sit Hard rollout comparison"><source src="media/sit-hard-contact/az90.mp4" type="video/mp4"><source src="media/sit-hard-contact/az90.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Sit Hard rollout comparison"><source src="media/sit-hard-contact/az90.mp4" type="video/mp4"><source src="media/sit-hard-contact/az90.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/sit-hard-contact/az90.mp4" data-webm="media/sit-hard-contact/az90.webm">90°</button><button type="button" data-mp4="media/sit-hard-contact/az0.mp4" data-webm="media/sit-hard-contact/az0.webm">0°</button><button type="button" data-mp4="media/sit-hard-contact/az180.mp4" data-webm="media/sit-hard-contact/az180.webm">180°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">03</span><h3>Slide</h3><p>support-aware motion</p></div><span class="task-family">H1</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Slide rollout comparison"><source src="media/slide-support/az90.mp4" type="video/mp4"><source src="media/slide-support/az90.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Slide rollout comparison"><source src="media/slide-support/az90.mp4" type="video/mp4"><source src="media/slide-support/az90.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/slide-support/az90.mp4" data-webm="media/slide-support/az90.webm">90°</button><button type="button" data-mp4="media/slide-support/az0.mp4" data-webm="media/slide-support/az0.webm">0°</button><button type="button" data-mp4="media/slide-support/az180.mp4" data-webm="media/slide-support/az180.webm">180°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">04</span><h3>Stand</h3><p>upright retention</p></div><span class="task-family">H1</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Stand rollout comparison"><source src="media/stand-retention/az90.mp4" type="video/mp4"><source src="media/stand-retention/az90.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Stand rollout comparison"><source src="media/stand-retention/az90.mp4" type="video/mp4"><source src="media/stand-retention/az90.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/stand-retention/az90.mp4" data-webm="media/stand-retention/az90.webm">90°</button><button type="button" data-mp4="media/stand-retention/az0.mp4" data-webm="media/stand-retention/az0.webm">0°</button><button type="button" data-mp4="media/stand-retention/az180.mp4" data-webm="media/stand-retention/az180.webm">180°</button></div></div>
           </article>
         </div>
@@ -122,25 +127,25 @@
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">01</span><h3>Hammer</h3><p>tool alignment</p></div><span class="task-family">H5</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Hammer rollout comparison"><source src="media/hammer/az150.mp4" type="video/mp4"><source src="media/hammer/az150.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Hammer rollout comparison"><source src="media/hammer/az150.mp4" type="video/mp4"><source src="media/hammer/az150.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/hammer/az150.mp4" data-webm="media/hammer/az150.webm">150°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">02</span><h3>Push-back</h3><p>goal-directed contact</p></div><span class="task-family">H5</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Push-back rollout comparison"><source src="media/push-back/az0.mp4" type="video/mp4"><source src="media/push-back/az0.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Push-back rollout comparison"><source src="media/push-back/az0.mp4" type="video/mp4"><source src="media/push-back/az0.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/push-back/az0.mp4" data-webm="media/push-back/az0.webm">0°</button><button type="button" data-mp4="media/push-back/az305.mp4" data-webm="media/push-back/az305.webm">305°</button><button type="button" data-mp4="media/push-back/az225.mp4" data-webm="media/push-back/az225.webm">225°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">03</span><h3>Push-wall</h3><p>forceful alignment</p></div><span class="task-family">H5</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Push-wall rollout comparison"><source src="media/push-wall/az200.mp4" type="video/mp4"><source src="media/push-wall/az200.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Push-wall rollout comparison"><source src="media/push-wall/az200.mp4" type="video/mp4"><source src="media/push-wall/az200.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/push-wall/az200.mp4" data-webm="media/push-wall/az200.webm">200°</button><button type="button" data-mp4="media/push-wall/az330.mp4" data-webm="media/push-wall/az330.webm">330°</button></div></div>
           </article>
           <article class="task-card">
             <header class="task-card-header"><div><span class="task-index">04</span><h3>Shelf-place</h3><p>fine placement</p></div><span class="task-family">H5</span></header>
             <div class="method-labels"><span>MVR</span><span>Ours</span></div>
-            <video controls muted playsinline preload="metadata" aria-label="Shelf-place rollout comparison"><source src="media/shelf-place/az120.mp4" type="video/mp4"><source src="media/shelf-place/az120.webm" type="video/webm"></video>
+            <video controls muted playsinline autoplay loop preload="metadata" aria-label="Shelf-place rollout comparison"><source src="media/shelf-place/az120.mp4" type="video/mp4"><source src="media/shelf-place/az120.webm" type="video/webm"></video>
             <div class="views"><span class="views-label">CAMERA</span><div class="camera-buttons"><button type="button" data-mp4="media/shelf-place/az120.mp4" data-webm="media/shelf-place/az120.webm">120°</button><button type="button" data-mp4="media/shelf-place/az150.mp4" data-webm="media/shelf-place/az150.webm">150°</button></div></div>
           </article>
         </div>
